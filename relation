@@ -1,0 +1,13 @@
+Table USER
+email   id(primary)  username    password
+
+Table FOLLOWS   
+followerid  followeeid
+
+Table VEHICLE
+id(primary)     year    make    model   finished    estimatedCost   finalCost
+    userID (foreign)
+
+Table TODO
+id(primary) title   description startDate   finishedDate    finished    cost
+    estimatedCost   vehicle
